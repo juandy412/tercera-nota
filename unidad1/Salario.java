@@ -1,4 +1,6 @@
-public class Ejercicio_4 {
+package unidad1;
+
+public class Salario {
 public static void main(String[] args) {
     double salarioinicial=1000.0;
     double retirosemanal=200.0;

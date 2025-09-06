@@ -1,4 +1,6 @@
-public class Ejercicio_5 {
+package unidad1;
+
+public class Descuentos {
 public static void main(String[] args) {
 
     double camiseta=25.0;

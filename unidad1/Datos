@@ -1,0 +1,85 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese su nombre: ");
+        String nombre = scanner.nextLine();
+        System.out.print("Ingrese su edad: ");
+        int edad = scanner.nextInt();
+
+        System.out.println("Hola, " + nombre + ". Tienes " + edad + " años.");
+        scanner.close();
+
+    }
+}
+
+
+//ejercicio 1
+import java.util.Scanner;
+
+public class LeerEntero {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa un número entero: ");
+        int numero = scanner.nextInt();
+
+        System.out.println("Número entero leído: " + numero);
+    }
+}
+
+//ejercicio 2
+
+import java.util.Scanner;
+
+public class LeerDecimal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa un número decimal: ");
+        double decimal = scanner.nextDouble();
+
+        System.out.println("Número decimal leído: " + decimal);
+    }
+}
+//ejercicio 3
+import java.util.Scanner;
+
+public class LeerLinea {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa una línea de texto: ");
+        String linea = scanner.nextLine();
+
+        System.out.println("Línea de texto leída: " + linea);
+    }
+}
+//ejercicio 4
+import java.util.Scanner;
+
+public class LeerPalabra {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa una palabra: ");
+        String palabra = scanner.next();
+
+        System.out.println("Palabra leída: " + palabra);
+    }
+}
+//ejercicio 5
+import java.util.Scanner;
+
+public class LeerPalabra {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa una palabra: ");
+        String palabra = scanner.next();
+
+        System.out.println("Palabra leída: " + palabra);
+    }
+}
+

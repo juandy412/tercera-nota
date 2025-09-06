@@ -1,6 +1,9 @@
+package unidad1;
+
 import java.util.Scanner;
 
-public class Ejercicio_3 {
+
+public class Comparar {
  public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 

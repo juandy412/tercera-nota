@@ -1,8 +1,8 @@
-
+package unidad1;
 
 import java.util.Scanner;
 
-public class Ejercicio_1 {
+public class Nombre {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 

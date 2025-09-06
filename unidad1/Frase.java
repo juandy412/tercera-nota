@@ -1,6 +1,10 @@
+package unidad1;
+
 import java.util.Scanner;
 
-public class Ejercicio_7 {
+
+
+public class Frase {
 public static Scanner scanner;
 
 public static void main(String[] args) {
