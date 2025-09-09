@@ -26,6 +26,7 @@ public class LeerEntero {
         int numero = scanner.nextInt();
 
         System.out.println("Número entero leído: " + numero);
+        scanner.close();
     }
 }
 
@@ -54,6 +55,7 @@ public class LeerLinea {
         String linea = scanner.nextLine();
 
         System.out.println("Línea de texto leída: " + linea);
+    scanner.close();
     }
 }
 //ejercicio 4
@@ -80,6 +82,7 @@ public class LeerPalabra {
         String palabra = scanner.next();
 
         System.out.println("Palabra leída: " + palabra);
+    scanner.close();
     }
 }
 
